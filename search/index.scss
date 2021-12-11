@@ -1,0 +1,148 @@
+div {
+  text-align: center;
+  margin: 40px;
+}
+
+.logo {
+  position: absolute;
+  top:0;
+  margin: 20px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: red;
+    font-style: normal;
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+}
+
+.line {
+    height: 0;
+    width: 100%;
+    border: 0.5px solid lightgrey;
+    margin: 0;
+}
+
+
+.link {
+  text-align: right;
+  height: 60px;
+  margin: 20px;
+  a {
+    text-decoration: none;
+    text-align: right;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+}
+
+.icon {
+  img {
+    width: 272px;
+    height: 92px;
+    position: relative;
+  }
+  span {
+    color: #4285F4;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 8px;
+    right: 60px;
+  }
+}
+
+form {
+    text-align: center;
+    .box {
+        border-radius: 46px;
+        max-width: 552px;
+        width: 90%;
+        height: 46px;
+        padding: 0 16px 0 16px;
+        position: relative;
+        border:1px solid lightgray;
+        font-size: 18px;
+    }
+    .box:hover {
+        box-shadow: 1px 0 3px lightgrey;
+    }
+    .button {
+        border-radius: 3px;
+        background-color: whitesmoke;
+        padding: 0 16px 0 16px;
+        height: 36px;
+        position: relative;
+        font-size: 16px;
+        border: none;
+    }
+
+    .button:hover {
+      border:1px solid lightgray;
+      box-shadow: 1px 0 3px lightgrey;
+    }
+
+    th {
+      font-size: 14px;
+      span {
+          font-family: 'Courier New', Courier, monospace;
+      }
+    }
+
+    td {
+      font-size: 12px;
+      span {
+          font-family: 'Courier New', Courier, monospace;
+      }
+    }
+
+   @media only screen and (max-width: 900px) {
+      .grey {
+        display:none;
+      }
+    }
+
+    .grey {
+      color:dimgrey;
+    }
+
+    .table {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-spacing: 10px;
+    }
+
+    .advanced_box {
+    width: 40vw;
+    height: 30px;
+    border: 1px solid lightgray;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    }
+
+    .advanced_button {
+      border-radius: 3px;
+      background-color: cornflowerblue;
+      color: white;
+      padding: 10px 15px 10px 15px ;
+      font-size: 14px;
+      border: none;
+    }
+    .advanced_button:hover {
+        border-radius: 3px;
+        background-color: royalblue;
+        color: white;
+        padding: 10px 15px 10px 15px ;
+        font-size: 14px;
+        border: none;
+      }
+}
